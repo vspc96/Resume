@@ -1,5 +1,5 @@
 #Resume
-My Single Page resume in latex using the IITBombay CV template(https://github.com/vspc96/Resume).
+My Single Page resume in latex using the IITBombay resume template
 
 Source TEX file : (https://github.com/vspc96/Resume/ResumeIITBomay.tex)
 
