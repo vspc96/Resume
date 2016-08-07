@@ -1,0 +1,128 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage{multicol}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Vadde Santosha Pradeep Chandra} \\
+\indent CSE Undergraduate\\
+\indent Indian Institute of Technology ,Kharagpur \\
+\indent Email-id : \textbf{vaddesantosh96@gmail.com} \indent Github:\textbf{//vspc96} \indent LinkedIn: \textbf{//vaddesantosh}\\\indent Mobile No.: \textbf{+917872688505} 
+%\indent Alt Mob No.: \textbf{-} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Class/Department} & \textbf{Institute} & \textbf{Year} & \textbf{CGPA/(\%)} \\
+\hline
+Computer Science and Engineering &Indian Institute of Techology , Kharagpur & 2013-Present & 7.86/10 \\
+Intermediate/+2(State Board) & Narayana Junior College , Hyderabad  & 2012 & 97.40 \\
+Matriculation(State Board) & Brilliant Grammar High School Hyderabad & 2010 & 91.50 \\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+
+\resheading{\textbf{TECHNICAL SKILLS} }\vspace{1cm}\\[\lsep]
+\begin{minipage}[t]{0.5\textwidth}
+\begin{itemize}
+\item \noindent \textbf{Languages}\\
+    \indent{Proficient : C, C++, Python}\\
+    Intermediate : Java ,HTML, Scala
+\item\noindent\textbf{Database} (MySQL)
+\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+\begin{itemize}
+\item\noindent\textbf{Operating Systems} UNIX, Windows environments
+\item\noindent\textbf{Frameworks} Apache Spark, Django
+\item\noindent\textbf{IDEs} PyCharm,Eclipse,NetBeans, Adobe Flash.
+\end{itemize}
+\end{minipage}
+
+\resheading{\textbf{INTERNSHIPS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Hewlett Packard Enterprise | Intern at R\&D Group | May 2016 - July 2016 Bengaluru, India}
+    \begin{itemize}\itemsep\isep
+    \item {Worked on the internals of Apache Spark. Study on the cluster management and error handling during the same. Made a detailed study on the Task Graph and the DAG Scheduler implemented by Spark and extraction of the same from Spark core.
+    }
+    \end{itemize}
+\item \noindent \textbf{Outsy | \textbf{Software Engineering Intern} | May 2015 - July 2015 Mumbai, India}
+    \begin{itemize}\itemsep\isep
+    \item {Worked on programmatically creating a database of events by scrapping the posts and events of public Facebook pages using the Facebook GraphApi under \textbf{Django} framework.
+    }
+    \item {Worked on programmatically generating event tags for events from their description using NLTK package of Python }
+    \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Course Management Website | DBMS Project |  https://github.com/vspc96/maggulater }
+    \begin{itemize}\itemsep\isep
+    \item {Developed a course management website using the \textbf{Django} framework which uses the MySQL database for background data storage. This website acts as a medium between the Faculty and Students. 
+    }
+    \end{itemize}
+\item \noindent \textbf{Apache Spark Application Development | DBMS Project }
+    \begin{itemize}\itemsep\isep
+    \item {Developed an application program in \textbf{Apache Spark} which uses Cosine similarity to find the similarity between the query vector and the document vectors. The NLTK Reuters corpus was used as the dataset through which document feature vectors were extracted using the TF-IDF weighting of words.
+    }
+    \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }\\[\lsep]
+\begin{itemize}
+
+\item \textbf{CODECLUB, IIT Kharagpur | Governor [2013-Present]}
+    \begin{itemize}\itemsep \isep
+    \item {Conducted monthly programming contests ,Code.Fun.Do, Microsoft’s 24 hour long app development hackathon and \textbf{Bitwise} , the annual coding competition of Department of Computer Science and Engineering, IIT Kharagpur .}
+    \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{RELEVANT COURSES TAKEN} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Current Semester}: Speech and Natural Language Processing, Artificial Intelligence, Machine Learning, Advanced Graph Theory, Theory Of Computation.\\
+\item \textbf{Completed(Recent first)}: Operating Systems + Lab, DBMS + Lab, Networks + Lab, Compilers + Lab, Algorithms II, Computer Organization \& Architecture + Lab, Software Engineering + Lab , Formal Language and Automata Theory,Algorithms-I + Lab, Programming and Data Structures + Lab.\\
+\end{itemize}
+\end{document}
+
